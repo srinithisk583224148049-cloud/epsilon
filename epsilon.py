@@ -1,3 +1,8 @@
+maths = float(input("Enter maths mark:"))
+physics = float(input("Enter physics mark:"))
+chemistry = float(input("Enter chemistry mark:"))
+cutoff = (maths * 0.5) + (physics * 0.25) + (chemistry * 0.25)
+print("Your cutoff mark is:",cutoff)
 maths=float(input("Enter maths mark out of 200:"))
 physics=float(input("Enter physics mark out of 200:"))
 chemistry=float(input("Enter chemistry mark out of 200:"))
