@@ -3,3 +3,19 @@ physics = float(input("Enter physics mark:"))
 chemistry = float(input("Enter chemistry mark:"))
 cutoff = (maths * 0.5) + (physics * 0.25) + (chemistry * 0.25)
 print("Your cutoff mark is:",cutoff)
+maths=float(input("Enter maths mark out of 200:"))
+physics=float(input("Enter physics mark out of 200:"))
+chemistry=float(input("Enter chemistry mark out of 200:"))
+maths_half=maths/2
+physics_quarter=physics/4
+chemistry_quarter=chemistry/4
+cutoff=maths_half+physics_quarter+chemistry_quarter
+print("Your cutoff mark:",cutoff)
+total_possible=100
+lost_marks=total_possible-cutoff
+print("Your lost",lost_marks,"marks from full cutoff.")
+Maths=float(input("Enter Maths mark:"))
+Physics=float(input("Enter Physics mark:"))
+Chemistry=float(input("Enter Chemisty mark:"))
+Cutoff=(Maths/2)+(Physics/4)+(Chemistry/4)
+print("Your Cutoff Mark is:",Cutoff)
